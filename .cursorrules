@@ -1,0 +1,7 @@
+we build our documents with typst, where we have templates (that have section components) and then each SOW / proposal, etc calls those templates. 
+Some things about typst that are important that are often missed: 
+> arguments for functions are positional, not with parameter names when called. 
+> checking against types is forbidden, make explicit functions that match the type of what is needed. Don't make super generic functions. 
+> Please make changes concise. 
+> When updating components of a template - you need to update the usages too. 
+> We prefer, for the data that is fed to the template - to use objects so that what needs to be filled out for the template is clear. 
